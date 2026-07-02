@@ -68,7 +68,6 @@ pip install -r requirements.txt
 ```
 
 Catatan penting:
-- `pip install -r requirements.txt --exclude ...` bukan flag pip yang valid
 - untuk Linux/macOS, cukup pakai `pip install -r requirements.txt`
 - untuk Windows, jalankan dari PowerShell:
 
@@ -76,6 +75,7 @@ Catatan penting:
 py -3 -m venv hyvenv
 hyvenv\Scripts\activate
 pip install -r requirements.txt
+pip install windows-curses
 ```
 
 Kalau virtualenv repo sudah ada, Anda bisa pakai langsung:
@@ -84,7 +84,7 @@ Kalau virtualenv repo sudah ada, Anda bisa pakai langsung:
 source hyvenv/bin/activate
 ```
 
-## Menjalankan CLI
+## Quick Run
 
 Cara utama:
 
