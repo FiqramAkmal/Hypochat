@@ -1,8 +1,0 @@
-hypo/
-__pycache__/
-*.pyc
-.env
-.ghostchat/
-dist/
-build/
-*.egg-info/
