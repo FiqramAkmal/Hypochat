@@ -3,5 +3,5 @@ cryptography>=42.0.0
 platformdirs>=4.2.0
 rich>=13.7.0
 typer>=0.12.0
-#curses
+curses
 windows-curses
